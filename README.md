@@ -95,7 +95,7 @@ Python Client to setup private project infrastructure
 
 positional arguments:
   pos_args              positional args
-                        1. Nucleus_server (ex: ov-elysium.redshiftltd.net)
+                        1. Nucleus_server (ex: ov-elysium.redshiftltd.com)
                         2. Project_root (ex: 'NVEX_Projects')
                         3. Project_name (ex: 'Project_C'
                         4. User_name (ex: 'mike')
@@ -124,7 +124,7 @@ options:
 #### Create a Root Project
 Create a Root Project folder called 'NVEX_projects'
 ```
-./project-tool -u mirice -p admin -M 1 -O 0 ov-elysium.redshiftltd.net NVEX_Projects  
+./project-tool -u nuc_user_name -p xxxxx -M 1 -O 0 ov-elysium.redshiftltd.com NVEX_Projects  
 ```
 The -M 1 option is used to denote a root project folder operation, the -O 0 means add (use -O 1 to delete). One needs to do this only once for every major root project folder creation. After this is done, one can add any number of sub-projects to this root project folder. 
 
@@ -132,12 +132,12 @@ The -M 1 option is used to denote a root project folder operation, the -O 0 mean
 The following example shows how to add a sub-project under the root project folder called Project_C:
 
 ```
-./project-tool -u mirice -p admin -M 2 -O 0 ov-elysium.redshiftltd.net NVEX_Projects Project_C
+./project-tool -u nuc_user_name -p xxxxx -M 2 -O 0 ov-elysium.redshiftltd.com NVEX_Projects Project_C
 ```
 
 #### Add user to Sub-project
 ```
-./project-tool -u mirice -p admin -M 3 -O 0 ov-elysium.redshiftltd.net NVEX_Projects Project_C user_a   
+./project-tool -u nuc_user_name -p xxxx -M 3 -O 0 ov-elysium.redshiftltd.com NVEX_Projects Project_C user_a   
 ```
 
 
