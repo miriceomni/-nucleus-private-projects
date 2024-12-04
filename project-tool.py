@@ -10,7 +10,7 @@ g_2 = None
 
 g_control_data = {
     'nucleus_user'      : 'omniverse',
-    'nucleus_password'  : 'RR123456',
+    'nucleus_password'  : 'xxxxx',
 }
 
 g_operation = ['Add','Delete']
@@ -74,7 +74,7 @@ if __name__ == "__main__":
   
 
     parser.add_argument("-u", "--user_id",  action='store', default="omniverse")
-    parser.add_argument("-p", "--password", action='store', default="123456")
+    parser.add_argument("-p", "--password", action='store', default="xxxxxx")
     parser.add_argument("-M", "--method",   type=int, default=0, help='\nTool method\nvalues 0-3\nMike' )
     parser.add_argument("-O", "--operation",type=int, default=0, help='\noperation mode\nvalues 0,1\n0=add (default)\n1=delete' )
  
