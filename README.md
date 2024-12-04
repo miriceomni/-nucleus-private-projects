@@ -124,7 +124,7 @@ options:
 #### Create a Root Project
 Create a Root Project folder called 'NVEX_projects'
 ```
-./project-tool -u -felix -p admin -M 1 -O 0 ov-elysium.redshiftltd.net NVEX_Projects  
+./project-tool -u mirice -p admin -M 1 -O 0 ov-elysium.redshiftltd.net NVEX_Projects  
 ```
 The -M 1 option is used to denote a root project folder operation, the -O 0 means add (use -O 1 to delete). One needs to do this only once for every major root project folder creation. After this is done, one can add any number of sub-projects to this root project folder. 
 
@@ -132,12 +132,12 @@ The -M 1 option is used to denote a root project folder operation, the -O 0 mean
 The following example shows how to add a sub-project under the root project folder called Project_C:
 
 ```
-./project-tool -u -felix -p admin -M 2 -O 0 ov-elysium.redshiftltd.net NVEX_Projects Project_C
+./project-tool -u mirice -p admin -M 2 -O 0 ov-elysium.redshiftltd.net NVEX_Projects Project_C
 ```
 
 #### Add user to Sub-project
 ```
-./project-tool -u -felix -p admin -M 3 -O 0 ov-elysium.redshiftltd.net NVEX_Projects Project_C user_a   
+./project-tool -u mirice -p admin -M 3 -O 0 ov-elysium.redshiftltd.net NVEX_Projects Project_C user_a   
 ```
 
 
