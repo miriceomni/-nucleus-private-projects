@@ -92,12 +92,12 @@ if __name__ == "__main__":
                                      formatter_class=RawTextHelpFormatter)
 
     parser.add_argument('pos_args', nargs='*', 
-                        help="positional args \n1. Nucleus_server (ex: ov-elysium.redshiftltd.net)\n2. Project_root (ex: 'NVEX_Projects')\n3. Project_name (ex: 'Project_C' \n4. User_name (ex: 'mike')") 
+                        help="positional args \n1. Nucleus_server (ex: ov-elysium.redshiftltd.com)\n2. Project_root (ex: 'NVEX_Projects')\n3. Project_name (ex: 'Project_C' \n4. User_name (ex: 'mike')") 
   
 
     parser.add_argument("-u", "--user_id",  action='store', default="omniverse")
     parser.add_argument("-p", "--password", action='store', default="xxxxxx")
-    parser.add_argument("-M", "--method",   type=int, default=0, help='\nTool method\nvalues 0-3\nMike' )
+    parser.add_argument("-M", "--method",   type=int, default=0, help='\nTool method\nvalues 0-3\n0 = Do nothing\n1 = Add/Del Root Project Directory\n2 = Add/Del Sub Project\n3 = Add/Del User\n ' )
     parser.add_argument("-O", "--operation",type=int, default=0, help='\noperation mode\nvalues 0,1\n0=add (default)\n1=delete' )
  
 
