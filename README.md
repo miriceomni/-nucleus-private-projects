@@ -44,8 +44,9 @@ $ git clone repo ssh://git@gitlab-master.nvidia.com:12051/nves/omniveres/nucleus
 Download and build the Omniverse Connect Samples. Site to get Connect SDK https://github.com/NVIDIA-Omniverse/connect-samples/releases.
 Use this site to get a pointer to the current archive
 
-Place this download zip/tar.gz anywhere on the client **local** filesystem.
-> Note: The SDK cannot be installed in a OneDrive location.
+Download and build the Omniverse Connect Samples. Site to get Connect SDK https://github.com/NVIDIA-Omniverse/connect-samples/releases. Use this site to get a pointer to the current archive. Place this download zip/tar.gz on client local filesystem.
+
+> Note: Windows -> The SDK cannot be installed in a OneDrive location or any other drive other than C:
 
 <details>
   <summary>Windows</summary>
