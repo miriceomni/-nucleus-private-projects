@@ -101,19 +101,24 @@ positional arguments:
 
 options:
   -h, --help            show this help message and exit
-  -u USER_ID, --user_id USER_ID
+  -u USER_ID,  --user_id USER_ID
   -p PASSWORD, --password PASSWORD
-  -M METHOD, --method METHOD
+  -M METHOD,   --method METHOD
 
-                        Tool method
+                        Tool methods
                         values 0-3
-                        Mike
+                        0 = Do nothing
+                        1 = Add/Del Root Project Directory
+                        2 = Add/Del Sub Project
+                        3 = Add/Del User
+
   -O OPERATION, --operation OPERATION
 
                         operation mode
                         values 0,1
                         0=add (default)
                         1=delete
+
 ```
 
 
