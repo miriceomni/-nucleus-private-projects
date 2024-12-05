@@ -32,7 +32,7 @@ g_2 = None
 
 g_control_data = {
     'nucleus_user'      : 'omniverse',
-    'nucleus_password'  : 'xxxxx',
+    'nucleus_password'  : 'xxxxxx',
 }
 
 g_operation = ['Add','Delete']
