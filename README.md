@@ -82,7 +82,7 @@ Once the Omniverse Connect Samples has been downloaded and built, update the `pr
 ::  Change this line to point to the downloaded (and built)
 ::  Client library root dir. 
 ::
-set CLIENT_LIB_SDK_DIR=C:\omniverse\nucleus-private-projects\connect-sdk\connect-samples-205.0.0\
+set CLIENT_LIB_SDK_DIR=C:\omniverse\nucleus-private-projects\connect-sdk\connect-samples-205.0.0
 ```
 
 ## Usage
