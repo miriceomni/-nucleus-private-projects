@@ -3,18 +3,18 @@
 
 
 ## Description
-The project-tool tool was created to demo a possible way to organize a folder structure that limits what normal 'users' can see and access. This type of behaviour is somewhat a mimic of the /Users folder structure. In that case all non-admin users can see the folder the folder '/Users' but in that folder they can only see the sub-folder for their user-id.
+The project-tool tool was created to demo a possible way to organize a folder structure that limits what normal 'users' can see and access. This type of behavior is somewhat a mimic of the /Users folder structure. In that case all non-admin users can see the folder the folder '/Users' but in that folder they can only see the sub-folder for their user-id.
 
 This tool can be used to create/manage a new folder structure that can be used to hide sub-folders from all users that are not part of that folders ACL group.
 
-This tool was created to do the folllowing 
+This tool was created to do the following 
 - create a base 'Projects' folder at the root of Nucleus. In this architecture, all users can see this folder in Omniverse applicatons, Navigator iagor or Nucleus web page on Launcher.
 
 
 ## Prereqs
 
 ### Clone this repo
-The following documetation is based on creating a directory called ***omniverse*** somewhere on the client **local** filesystem. The name of this directory is up to the user.
+The following documentation is based on creating a directory called ***omniverse*** somewhere on the client **local** filesystem. The name of this directory is up to the user.
 
 
 
@@ -96,7 +96,7 @@ positional arguments:
   pos_args              positional args
                         1. Nucleus_server (ex: ov-elysium.redshiftltd.com)
                         2. Project_root (ex: 'NVEX_Projects')
-                        3. Project_name (ex: 'Project_C'
+                        3. Project_name (ex: 'Project_C')
                         4. User_name (ex: 'mike')
 
 options:
@@ -125,6 +125,11 @@ options:
 
 
 ### Example 
+The user id to use this tool must have admin privileges. This will be checked on start of the tool. The following will be displayed if this is not the case:
+```
+[project-tool]: Error -- Must be an Admin Nucleus user to use this tool
+```
+
 #### Create a Root Project
 Create a Root Project folder called 'NVEX_projects'
 ```
