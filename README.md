@@ -141,7 +141,7 @@ The following example shows how to add a sub-project under the root project fold
 
 #### Add user to Sub-project
 ```
-./project-tool -u nuc_user_name -p xxxx -M 3 -O 0 ov-elysium.redshiftltd.com NVEX_Projects Project_C user_a   
+./project-tool -u nuc_user_name -p xxxxx -M 3 -O 0 ov-elysium.redshiftltd.com NVEX_Projects Project_C user_a   
 ```
 
 
