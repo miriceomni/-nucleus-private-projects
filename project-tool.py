@@ -116,7 +116,7 @@ if __name__ == "__main__":
     startupOmniverse()
     
     #   check to see if we are and Admin. This is dumb, must be a better way to figure this out.
-    (res,_) = omni.client.remove_group(get_nucleus_url(),"dummyMiriceXYZ")
+    (res,_) = omni.client.remove_group(get_nucleus_url(),"dummySuperDuperXYZ")
     if res.name == "ERROR_ACCESS_DENIED":
         printf("Must be an Admin Nucleus user to use this tool",1)
         exit(-1)
