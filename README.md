@@ -26,7 +26,7 @@ The following documentation is based on creating a directory called ***omniverse
 PS > cd C:\
 PS > mkdir omniverse
 PS > cd C:\omniverse
-PS >
+PS > git clone https://github.com/miriceomni/nucleus-private-projects.git
 ```
 </details>
 <details>
@@ -36,7 +36,7 @@ PS >
 $ cd ~
 $ mkdir omniverse
 $ cd omniverse
-$ 
+$ git clone https://github.com/miriceomni/nucleus-private-projects.git
 ```
 </details>
 
